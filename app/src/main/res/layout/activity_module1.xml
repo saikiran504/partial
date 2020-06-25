@@ -23,22 +23,30 @@
 
     <Button
         android:id="@+id/select"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Select your Cakes"
+        android:layout_width="149dp"
+        android:layout_height="48dp"
+        android:background="#D8F15A5A"
+        android:gravity="center"
+        android:text="Select Cakes"
+        android:textColor="#FEFEFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.902" />
+        app:layout_constraintVertical_bias="0.773" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="204dp"
-        android:text="TextView"
+        android:layout_marginBottom="244dp"
+        android:fontFamily="sans-serif-black"
+        android:text="All type of cakes are Available"
+        android:textColor="#201D1D"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

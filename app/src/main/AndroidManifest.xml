@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Module2"></activity>
+        <activity android:name=".fruit"></activity>
+        <activity android:name=".shape" />
+        <activity android:name=".event" />
+        <activity android:name=".cream" />
+        <activity android:name=".photo" />
+        <activity android:name=".birthday" />
+        <activity android:name=".Module2" />
         <activity android:name=".Module1" />
         <activity android:name=".MainActivity">
             <intent-filter>

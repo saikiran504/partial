@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3994E8D5"
+    tools:context=".event">
+
+
+    <ImageSwitcher
+        android:id="@+id/img_swi"
+        android:layout_width="333dp"
+        android:layout_height="358dp"
+        android:layout_centerInParent="true">
+
+    </ImageSwitcher>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="108dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="5dp"
+        android:background="#D0E63232"
+        android:text="Next"
+        android:textColor="#EDE6E6"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="108dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="5dp"
+        android:background="#D0E63232"
+        android:text="Previous"
+        android:textColor="#EDE6E6"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
+
+

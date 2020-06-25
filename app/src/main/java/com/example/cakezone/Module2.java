@@ -10,9 +10,11 @@ import android.widget.Toast;
 public class Module2 extends AppCompatActivity {
 
     CardView photocakes;
-    CardView stepcakes;
+    CardView creamcakes;
     CardView fruitcakes;
     CardView shapecakes;
+    CardView birthdaycakes;
+    CardView eventcakes;
 
 
     @Override
@@ -20,9 +22,11 @@ public class Module2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_module2);
         photocakes = findViewById(R.id.photo);
-        stepcakes = findViewById(R.id.step);
+        creamcakes = findViewById(R.id.cream);
         fruitcakes = findViewById(R.id.fruit);
         shapecakes = findViewById(R.id.shape);
+        birthdaycakes = findViewById(R.id.birthday);
+        eventcakes = findViewById(R.id.event);
 
 
         photocakes.setOnClickListener(new View.OnClickListener() {
@@ -36,12 +40,12 @@ public class Module2 extends AppCompatActivity {
             }
         });
 
-        stepcakes.setOnClickListener(new View.OnClickListener() {
+        creamcakes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Module2.this, "step cake", Toast.LENGTH_SHORT).show();
-                Intent step = new Intent(Module2.this, step.class);
-                startActivity(step);
+                Toast.makeText(Module2.this, "cream cake", Toast.LENGTH_SHORT).show();
+                Intent cream = new Intent(Module2.this, cream.class);
+                startActivity(cream);
 
             }
         });
@@ -63,10 +67,27 @@ public class Module2 extends AppCompatActivity {
                 Toast.makeText(Module2.this, "shape cake", Toast.LENGTH_SHORT).show();
                 Intent shape = new Intent(Module2.this, shape.class);
                 startActivity(shape);
-
-
             }
         });
+
+        birthdaycakes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Module2.this,"birthday cakes",Toast.LENGTH_LONG).show();
+                Intent birthday = new Intent(Module2.this, birthday.class);
+                startActivity(birthday);
+            }
+        });
+
+        eventcakes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Module2.this,"Event cakes",Toast.LENGTH_LONG).show();
+                Intent event = new Intent(Module2.this, event.class);
+                startActivity(event);
+            }
+        });
+
 
     }
 }
