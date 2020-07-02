@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "662776763550",
+    "firebase_url": "https://cake-zone-86638.firebaseio.com",
+    "project_id": "cake-zone-86638",
+    "storage_bucket": "cake-zone-86638.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662776763550:android:885ede5c0570b6361ad78f",
+        "android_client_info": {
+          "package_name": "com.example.cakezone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662776763550-cbk1hvr8o3mk4ub6inhvk0vpse07tk3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cakezone",
+            "certificate_hash": "5f93dcd0fa0cc6af5bb292fd5cdd0f24c0092157"
+          }
+        },
+        {
+          "client_id": "662776763550-a635amectq52t81ghnj7uquusgbgoj8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE56bNsxdbdfZ3XnMd4x6IGq9WYv7Yk80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662776763550-a635amectq52t81ghnj7uquusgbgoj8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
